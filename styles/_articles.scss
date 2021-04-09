@@ -1,0 +1,51 @@
+.articles {
+  padding: 3.2rem 0;
+
+  &__title {
+    font-size: 2rem;
+    color: $primaryBlue;
+    margin-bottom: 1.7rem;
+    line-height: 1.1em;
+    text-align: center;
+  }
+
+  &__article {
+    border-radius: 7px;
+    overflow: hidden;
+    background-color: $neutralWhite;
+    margin-bottom: 25px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &__img {
+      object-fit: cover;
+      height: 200px;
+      width: 100%;
+    }
+
+    &__author {
+      color: $neutralBlue;
+      font-size: .7rem;
+      margin-bottom: 2px;
+    }
+
+    &__title {
+      color: $primaryBlue;
+      font-size: 1rem;
+      margin-bottom: 5px;
+    }
+
+    &__snippet {
+      color: $neutralBlue;
+      font-size: .8rem;
+      line-height: 1rem;
+    }
+
+    &__info {
+      width: 90%;
+      margin: 14px auto 32px auto;
+    }
+  }
+}

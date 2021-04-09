@@ -1,0 +1,38 @@
+.features {
+  text-align: center;
+  background-color: $neutralLightBlue;
+  padding: 3.2rem 0;
+
+  &__title {
+    font-size: 2rem;
+    color: $primaryBlue;
+    margin-bottom: 1.1rem;
+    line-height: 1.1em;
+  }
+
+  &__subtitle {
+    color: $neutralBlue;
+    font-size: .9rem;
+    margin-bottom: 3rem;
+  }
+
+  &__list {
+    &__img {
+      width: 80px;
+      margin-bottom: 15px;
+    }
+
+    &__title {
+      color: $primaryBlue;
+      font-size: 1.3rem;
+      margin-bottom: 15px;
+    }
+
+    &__desc {
+      color: $neutralBlue;
+      font-size: .9rem;
+      margin-bottom: 33px;
+    }
+  }
+}
+

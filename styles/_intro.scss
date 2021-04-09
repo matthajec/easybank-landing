@@ -1,0 +1,40 @@
+.intro {
+  flex-direction: column;
+
+  &__graphic {
+    overflow: hidden;
+    order: 1;
+    height: 100%;
+    width: 100vw;
+    background-image: url(../images/bg-intro-mobile.svg);
+    background-position: left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: right 72% top 60%;
+
+    &__phones {
+      margin-left: 0;
+      margin-top: -8.6rem;
+      width: 100vw;
+      height: auto;
+    }
+  }
+
+  &__hero {
+    order: 2;
+    text-align: center;
+
+    &__title {
+      font-size: 2.4rem;
+      color: $primaryBlue;
+      line-height: 3rem;
+      margin-bottom: 20px;
+    }
+
+    &__subtitle {
+      font-size: .9rem;
+      color: $neutralBlue;
+      margin-bottom: 25px;
+    }
+  }
+}

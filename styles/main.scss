@@ -1,1 +1,39 @@
-@import 'reset', 'variables', 'header';
+@import 'reset', 'variables', 'header', 'intro', 'features', 'articles', 'footer';
+
+body {
+  font-size: $fontSize;
+  font-family: $fontStack;
+  line-height: 1.5rem;
+  background-color: $neutralGray;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 82vw;
+
+  &--apart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.btn {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-radius: 1000px;
+  border: 0;
+  color: $neutralWhite;
+  background: linear-gradient(90deg, $primaryGreen, $primaryCyan);
+  font-weight: bold;
+  margin-bottom: 1.4rem;
+  outline: none;
+  width: 150px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
